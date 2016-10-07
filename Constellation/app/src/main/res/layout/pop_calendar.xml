@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <DatePicker
+        android:id="@+id/date_selector"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="395dp"
+        ></DatePicker>
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_marginTop="15dp"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:text="confirm"
+        android:textColor="@color/grey"
+        android:textSize="14sp"
+        android:background="@drawable/sign_button"
+        />
+
+
+</LinearLayout>
